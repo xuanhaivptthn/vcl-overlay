@@ -29,3 +29,4 @@ test.assign({
 	scoreHandler,
     gameStateHandler
 });
+

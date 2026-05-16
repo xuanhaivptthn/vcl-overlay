@@ -99,6 +99,11 @@ export default class BeatmapHandler {
 						this.updatePicker();
 						break;
 					}
+					case "BPM": {
+						if (typeof newValue !== "number") break;
+						element.innerText = newValue.toFixed(0);
+						break;
+					}
 					default: {
 						element.innerText = newValue;
 						break;

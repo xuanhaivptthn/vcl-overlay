@@ -1,58 +1,61 @@
 {
-    "mappool": [
+    "mappool":
+    [
         {
             "mod": "NM",
             "icon": "assets/mods/NM.png",
-            "maps": [
-                4675675,
-                4805589,
-                4944299,
-                5058387,
-                953586
+            "maps":
+            [
+                3048435,
+                4891850,
+                1559974,
+                1756216,
+                4847540
             ]
         },
         {
             "mod": "HD",
             "icon": "assets/mods/HD.png",
-            "maps": [
-                4276777,
-                4715294,
-                4899864
+            "maps":
+            [
+                2588481,
+                3243434
             ]
         },
         {
             "mod": "HR",
             "icon": "assets/mods/HR.png",
-            "maps": [
-                4276777,
-                4715294,
-                4899864
+            "maps":
+            [
+                4313544,
+                3699517
             ]
         },
         {
             "mod": "DT",
             "icon": "assets/mods/DT.png",
-            "maps": [
-                4276777,
-                4715294,
-                4899864
+            "maps":
+            [
+                1153255,
+                3612366,
+                5563289
             ]
         },
         {
             "mod": "FM",
             "icon": "assets/mods/FM.png",
-            "maps": [
-                4276777,
-                4715294,
-                4899864,
-                4899864
+            "maps":
+            [
+                4968396,
+                4204796
             ]
         },
         {
-            "mod": "TB",
-            "icon": "assets/mods/TB.png",
-            "maps": [
-                4715294
+            "mod": "SD",
+            "icon": "assets/mods/SD.png",
+            "maps":
+            [
+                4111248
             ]
         }
     ]

@@ -135,9 +135,19 @@ export default class ScoreHandler {
 
 		switch (this.scoringCondition) {
 			case ScoringCondition.SCORE: {
+				const scoresLeft = this.clients
+					.filter( (client) => client.team === "left" )
+					.map( (client) => client.score * ( (2 & client.mods) !== 0 ? 1.67 : 1) )
+					.reduce( (s, v) => s + v, 0);
+
+				const scoresRight = this.clients
+					.filter( (client) => client.team === "right" )
+					.map( (client) => client.score * ( (2 & client.mods) !== 0 ? 1.67 : 1) )
+					.reduce( (s, v) => s + v, 0);
+
 				this.updateScoring(
-					data.tourney.manager.gameplay.score.left,
-					data.tourney.manager.gameplay.score.right,
+					scoresLeft,
+					scoresRight,
 				);
 				break;
 			}
